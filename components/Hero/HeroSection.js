@@ -7,6 +7,7 @@ import PrimaryButton from "../Button/PrimaryButton";
 export default function HeroSection() {
   return (
     <section className="bg-gray-50">
+      {/* Banner part */}
       <Container>
         <div className="pt-10 flex flex-col-reverse md:flex-row items-center justify-between">
           <div className="max-w-2xl space-y-6">
@@ -41,6 +42,7 @@ export default function HeroSection() {
           </div>
         </div>
       </Container>
+
       {/* notics show here */}
       <ApplicationNotic />
     </section>
