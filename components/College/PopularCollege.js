@@ -4,11 +4,9 @@ import PrimaryButton from "../Button/PrimaryButton";
 import SectionTitle from "../Tiltes/SectionTitle";
 import getPopularCollege from "@/lib/getPopularCollege";
 
-console.log("Hello world", getPopularCollege());
-
 export default async function PopularCollege() {
   const populerCollege = await getPopularCollege();
-  console.log(populerCollege);
+
   return (
     <Container>
       {/* search bar here */}

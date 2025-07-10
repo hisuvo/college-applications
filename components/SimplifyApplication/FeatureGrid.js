@@ -11,32 +11,32 @@ const features = [
   {
     title: "Track applications in one place",
     desc: "Apply to and manage all college applications through My Profile",
-    icon: <BanknoteIcon className="w-7 h-7 text-amber-800" />,
+    icon: <BanknoteIcon />,
   },
   {
     title: "Get Your Career Match",
     desc: "Take our free career compass personality quiz and get top career options for you.",
-    icon: <MonitorSmartphone className="w-7 h-7 text-amber-800" />,
+    icon: <MonitorSmartphone />,
   },
   {
     title: "Apply With One Form",
     desc: "One platform to apply to 2000+ esteemed colleges",
-    icon: <ClipboardList className="w-7 h-7 text-amber-800" />,
+    icon: <ClipboardList />,
   },
   {
     title: "Get Exciting Rewards",
     desc: "Win amazing rewards and cashbacks while applying",
-    icon: <Gift className="w-7 h-7 text-amber-800" />,
+    icon: <Gift />,
   },
   {
     title: "Talk to Admission Experts",
     desc: "Get free personalised expert guidance on colleges & courses",
-    icon: <Headphones className="w-7 h-7 text-amber-800" />,
+    icon: <Headphones />,
   },
   {
     title: "Easy Apply in 5 mins",
     desc: "Fill your college applications in 5 minutes or less.",
-    icon: <Timer className="w-7 h-7 text-amber-800" />,
+    icon: <Timer />,
   },
 ];
 
@@ -53,7 +53,7 @@ export default function FeatureGrid() {
               <h3 className="text-lg font-semibold mb-1">{feature.title}</h3>
               <p className="text-sm ">{feature.desc}</p>
             </div>
-            <div className="bg-white p-3 rounded-md shadow-sm">
+            <div className="bg-white text-[#2f9c6f]  p-3 rounded-md shadow-sm">
               {feature.icon}
             </div>
           </div>

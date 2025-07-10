@@ -20,7 +20,7 @@ export default function HeroSection() {
 
             <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
               <span className="text-orange-500">200+ Colleges</span>,{" "}
-              <span className="text-blue-900">1 Application Form</span>
+              <span className="text-[#3dba86]">1 Application Form</span>
             </h1>
 
             <p className="text-lg text-gray-600">
