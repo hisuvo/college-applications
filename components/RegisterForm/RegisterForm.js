@@ -35,6 +35,7 @@ export default function RegisterForm() {
           value={form.name}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
+          placeholder="Enter your name"
           required
         />
       </div>
@@ -53,6 +54,7 @@ export default function RegisterForm() {
           value={form.email}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
+          placeholder="your@email.com"
           required
         />
       </div>
@@ -71,6 +73,7 @@ export default function RegisterForm() {
           value={form.password}
           onChange={handleChange}
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
+          placeholder="••••••••"
           required
           minLength={8}
         />

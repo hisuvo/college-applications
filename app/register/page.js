@@ -13,7 +13,7 @@ export default function Register() {
             href="/login"
             className="font-medium text-amber-600 hover:text-amber-500"
           >
-            Sign in
+            Sign In
           </a>
         </p>
       </div>

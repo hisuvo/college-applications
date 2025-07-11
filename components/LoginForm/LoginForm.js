@@ -12,6 +12,10 @@ export default function LoginForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const handleReset = (e) => {
+    console.log("reset button here");
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("login ifno --->", form); // Replace with your login logic
@@ -63,17 +67,13 @@ export default function LoginForm() {
       >
         Sign In
       </button>
-      <div>
-        <p className="text-center">
-          New to Collegedekho?{" "}
-          <Link
-            className="text-amber-500 hover:text-amber-600  underline"
-            href={"/register"}
-          >
-            Sign Up
-          </Link>{" "}
-        </p>
-      </div>
+      <button
+        type="button"
+        onClick={handleReset}
+        className="w-full bg-gray-300 text-black py-2 rounded-lg hover:bg-gray-400"
+      >
+        Reset
+      </button>
     </form>
   );
 }
