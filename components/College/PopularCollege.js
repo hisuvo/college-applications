@@ -9,7 +9,7 @@ export default async function PopularCollege() {
   const populerCollege = await getPopularCollege();
 
   return (
-    <Container className={"my-10"}>
+    <Container className={"mb-30"}>
       {/* search bar here */}
       <div className="grid grid-cols-12 gap-2 md:gap-4 py-10">
         <div className="col-span-0 md:col-span-2"></div>
